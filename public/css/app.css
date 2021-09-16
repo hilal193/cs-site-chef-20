@@ -17236,12 +17236,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 5px dashed black;
 }
 header ul {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
 header .text_super {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17255,13 +17257,33 @@ header .color_red {
   color: red;
 }
 header button {
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px;
   margin-bottom: 10%;
+  font-size: small;
+  text-transform: uppercase;
 }
 header button:last-of-type {
   background-color: red;
   color: white;
+}
+
+.carte_menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.c1 {
+  position: relative;
+  border: 1px solid black;
+}
+.c1 .margin_GD {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.c1 .ht_dr {
+  position: absolute;
+  right: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

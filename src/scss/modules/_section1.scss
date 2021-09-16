@@ -1,0 +1,16 @@
+.carte_menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}.c1{
+    position: relative;
+    border: 1px solid black;
+    .margin_GD{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .ht_dr{
+        position: absolute;
+        right: 0;
+    }
+}
