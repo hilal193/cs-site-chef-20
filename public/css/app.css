@@ -17315,6 +17315,41 @@ header .carousel-indicators button {
   color: black;
 }
 
+h2, .h2 {
+  font-family: "courgette";
+}
+
+.color_red {
+  color: red;
+}
+
+.workImg img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.font_text h4, .font_text .h4 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.font_text p {
+  font-size: 11px;
+}
+
+.prix {
+  background-color: grey;
+  color: red;
+  padding: 2px 7px;
+}
+
+.bordure_burger {
+  border-bottom: dotted 1px grey;
+  padding: 5px;
+  margin: 0 10px;
+}
+
 body h1, body .h1 {
   font-family: courgette;
 }
