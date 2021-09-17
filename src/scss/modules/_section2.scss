@@ -1,0 +1,57 @@
+.profil_chef{
+    background-image: url(../../../public/img/team_background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    div{
+        padding: 20px;
+    }
+    img{
+        width: 90%;
+       
+    }
+    .border_bottom{
+        border-bottom: 1px solid grey;
+
+    }
+    h3{
+        font-family: "courgette";
+        .color_red{
+            color: red;
+            font-size: 40px;
+        }
+    }
+    .color_white{
+        color:white !important;
+    }
+    .profil_photo{
+        border-bottom: 1px solid black;
+    }
+    .bg_chef{
+        &:hover{
+            background-color: red;
+        }
+    }
+    h4{
+        font-size: 15px;
+    }
+}
+// responsive
+@media screen and (max-width:620px) {
+    .profil_photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and ( min-width : 620px ) and (max-width : 1024px){
+    .profil_photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

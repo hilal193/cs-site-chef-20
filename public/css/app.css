@@ -17350,6 +17350,58 @@ h2, .h2 {
   margin: 0 10px;
 }
 
+.profil_chef {
+  background-image: url(../../../public/img/team_background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.profil_chef div {
+  padding: 20px;
+}
+.profil_chef img {
+  width: 90%;
+}
+.profil_chef .border_bottom {
+  border-bottom: 1px solid grey;
+}
+.profil_chef h3, .profil_chef .h3 {
+  font-family: "courgette";
+}
+.profil_chef h3 .color_red, .profil_chef .h3 .color_red {
+  color: red;
+  font-size: 40px;
+}
+.profil_chef .color_white {
+  color: white !important;
+}
+.profil_chef .profil_photo {
+  border-bottom: 1px solid black;
+}
+.profil_chef .bg_chef:hover {
+  background-color: red;
+}
+.profil_chef h4, .profil_chef .h4 {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 620px) {
+  .profil_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+  .profil_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 body h1, body .h1 {
   font-family: courgette;
 }
