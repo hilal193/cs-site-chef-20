@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: courgette;
+  src: url(../../public/fonts/Courgette-Regular.ttf);
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17284,6 +17288,23 @@ header button:last-of-type {
 .c1 .ht_dr {
   position: absolute;
   right: 0;
+}
+
+.bordure .liste {
+  list-style-type: none;
+  border-bottom: 2px solid grey;
+  border-right: 5px solid black;
+}
+.bordure .liste:hover {
+  border-right: 5px solid red;
+}
+.bordure a {
+  text-decoration: none;
+  color: black;
+}
+
+body h1, body .h1 {
+  font-family: courgette;
 }
 
 /*# sourceMappingURL=app.css.map */

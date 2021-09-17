@@ -8,9 +8,25 @@
         margin-left: 20%;
         margin-right: 20%;
     }
-
+    
     .ht_dr{
         position: absolute;
         right: 0;
+    }
+}
+.bordure{
+    
+    .liste{
+        list-style-type: none;
+        border-bottom: 2px solid grey;
+        border-right:  5px solid black;
+        &:hover{
+            border-right: 5px solid red;
+        }
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
     }
 }
