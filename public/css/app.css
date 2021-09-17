@@ -17232,44 +17232,56 @@ textarea.form-control-lg {
   }
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url(../../../public/img/blog_img1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   border-bottom: 5px dashed black;
 }
 header ul {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-header .text_super {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-header span {
-  text-transform: uppercase;
-}
-header .color_red {
-  color: red;
-}
-header button {
-  border-radius: 20px;
-  padding: 10px;
-  margin-bottom: 10%;
-  font-size: small;
-  text-transform: uppercase;
-}
-header button:last-of-type {
+header .nav-item a:hover {
   background-color: red;
+}
+header .text_super {
+  position: absolute;
+  z-index: 1;
+}
+header .text_super h1, header .text_super .h1 {
+  font-family: "courgette";
   color: white;
+}
+header .text_super h1 .color_red, header .text_super .h1 .color_red {
+  color: red;
+  font-size: 110%;
+}
+header .text_super .bouton_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .text_super .bouton_header .bouton_1, header .text_super .bouton_header .bouton_2 {
+  border-radius: 50%;
+  padding: 2%;
+  width: 30%;
+  border: none;
+}
+header .text_super .bouton_header .bouton_1:hover, header .text_super .bouton_header .bouton_2:hover {
+  background-color: red;
+}
+header .carousel-inner img {
+  filter: brightness(30%);
+}
+header .carousel-indicators button {
+  height: 100px;
+  width: 100px;
+}
+
+#carouselExampleCaptions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carte_menu {

@@ -1,41 +1,64 @@
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.45)), url(../../../public/img/blog_img1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+     
     display: flex;
     justify-content: center;
-    align-items: center;
     border-bottom: 5px dashed black;
-    // border-bottom: 10px dotted black;
-    // padding: 50px 70px ;
+   
     ul{
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
-
-
-    .text_super{
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        color: white;
-    }span{
-        text-transform: uppercase;
-    }.color_red{
-        color: red;
-    }button{
-        border-radius: 20px;
-        padding: 10px;
-        margin-bottom: 10%;
-        font-size: small;
-        text-transform: uppercase;
-        &:last-of-type{
+    .nav-item{
+        a:hover{
             background-color: red;
-            color: white;
         }
     }
+
+    .text_super{
+        position:absolute;
+        z-index: 1;
+        h1{
+            font-family: "courgette";
+            color: white;
+            .color_red{
+                color: red;
+                font-size: 110%;
+            }
+        }
+        .bouton_header{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .bouton_1, .bouton_2{
+                border-radius: 50%;
+                padding: 2%;
+                width: 30%;
+                border: none;
+            }& .bouton_1:hover,.bouton_2:hover{
+                background-color: red;
+            }
+        }
+      
+    }
+    .carousel-inner{
+        img{
+            filter: brightness(30%);
+        }
+    }
+    
+    .carousel-indicators{
+        button{
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+    
+}
+// carousel
+#carouselExampleCaptions{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
