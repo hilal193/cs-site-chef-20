@@ -17583,6 +17583,62 @@ h2, .h2 {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+  .testimonials .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials .second #second_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonials .second #second_div div {
+    margin-top: 10px;
+  }
+  .testimonials .second #third_div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .testimonials .second #third_div div {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .testimonials #first_div h2, .testimonials #first_div .h2 {
+    font-size: 20px;
+  }
+  .testimonials #first_div h2 span, .testimonials #first_div .h2 span {
+    font-size: 35px;
+  }
+  .testimonials .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials .second #second_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+  }
+  .testimonials .second #second_div div {
+    margin-top: 10px;
+    width: 100%;
+    font-size: x-small;
+  }
+  .testimonials #third_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 5%;
+  }
+  .testimonials #third_div div {
+    margin-top: 10px;
+    width: 100%;
+    font-size: x-small;
+  }
+}
 body h1, body .h1 {
   font-family: courgette;
 }

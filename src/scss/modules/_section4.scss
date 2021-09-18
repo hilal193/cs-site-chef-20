@@ -77,3 +77,68 @@
         }
     }
 }
+// tablette
+@media screen and ( min-width : 620px ) and (max-width : 1024px) {
+    .testimonials{
+        .second{
+            display: flex;
+            flex-direction: column;
+            #second_div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    margin-top: 10px;
+                }
+    
+            }
+            #third_div{
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                div{
+                    margin-top: 10px;
+                    }
+        }
+      }
+    }
+}
+// tel
+@media screen and ( max-width : 620px ) {
+    .testimonials{
+        #first_div{
+            h2{
+                font-size: 20px;
+                span{
+                font-size: 35px;
+                    }
+            }
+        }.second{
+            display: flex;
+            flex-direction: column;
+            #second_div{
+                display: flex;
+                flex-direction: column;
+               align-items: center;
+            padding-top: 5%;
+
+                div{
+                margin-top: 10px;
+                width: 100%;
+                font-size: x-small;
+                    }
+                        }
+        }
+        #third_div{
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+            padding-top: 5%;
+            div{
+                margin-top: 10px;
+                width: 100%;
+                font-size: x-small;
+            }
+        }
+    }
+}
