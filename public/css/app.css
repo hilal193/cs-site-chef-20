@@ -17296,6 +17296,26 @@ header .carousel-indicators button {
   justify-content: center;
 }
 
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar .logo_fourchette {
+    margin-left: 40% !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .navbar {
+    display: none;
+  }
+
+  #bouton {
+    font-size: 10px;
+  }
+}
 .carte_menu {
   padding-top: 20px;
   padding-bottom: 20px;
