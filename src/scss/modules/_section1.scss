@@ -1,68 +1,91 @@
-.carte_menu{
+.carte_menu {
     padding-top: 20px;
     padding-bottom: 20px;
-}.c1{
+}
+
+.c1 {
     position: relative;
     border: 1px solid black;
-    .margin_GD{
+
+    .margin_GD {
         margin-left: 20%;
         margin-right: 20%;
     }
-    
-    .ht_dr{
+
+    .ht_dr {
         position: absolute;
         right: 0;
     }
 }
-.bordure{
-    
-    .liste{
+
+.bordure {
+
+    .liste {
         list-style-type: none;
         border-bottom: 2px solid grey;
-        border-right:  5px solid black;
-        &:hover{
+        border-right: 5px solid black;
+
+        &:hover {
             border-right: 5px solid red;
         }
-        
+
     }
-    a{
+
+    a {
         text-decoration: none;
         color: black;
-        // i{
+
+        // pour logo precis
+        // .fa-mug-hot{
         //     &:hover{
-        //         background-color: red;
+        //         color: red !important;
         //     }
         // }
+        i {
+            &:hover {
+                color: red !important;
+            }
+        }
     }
 }
-h2{
+
+h2 {
     font-family: "courgette";
 }
-.color_red{
+
+.color_red {
     color: red;
+    font-size: 35px;
+    text-transform: uppercase;
 }
-.workImg{
-    img{
+
+.workImg {
+    img {
         height: 100px;
         width: 100px;
         margin-right: 10px;
         margin-bottom: 8px;
     }
 }
-.font_text{
-    h4{
+
+.font_text {
+    h4 {
         font-size: 15px;
         font-weight: bold;
-    }p{
+    }
+
+    p {
         font-size: 11px;
     }
 }
-.prix{
+
+.prix {
     background-color: grey;
     color: red;
     padding: 2px 7px;
 }
-.bordure_burger{
+
+.bordure_burger {
     border-bottom: dotted 1px grey;
     padding: 5px;
     margin: 0 10px;
@@ -70,17 +93,16 @@ h2{
 
 // responsive
 
-@media screen and ( max-width : 620px ){
-    .carte_menu{
-        
-     
-        
-      .bordure_burger{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          text-align: center;
-          align-items: center;
-      }
+@media screen and (max-width : 620px) {
+    .carte_menu {
+
+
+
+        .bordure_burger {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-left: 50%;
+        }
     }
 }

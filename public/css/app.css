@@ -17236,6 +17236,14 @@ header {
   justify-content: center;
   border-bottom: 5px dashed black;
 }
+header .uppercase {
+  text-transform: uppercase;
+  font-size: 70px;
+}
+header .lowercase {
+  text-transform: lowercase;
+  font-size: 70px;
+}
 header ul {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -17254,7 +17262,6 @@ header .text_super h1, header .text_super .h1 {
 }
 header .text_super h1 .color_red, header .text_super .h1 .color_red {
   color: red;
-  font-size: 110%;
 }
 header .text_super #bouton {
   margin: 2% 2%;
@@ -17268,7 +17275,7 @@ header .text_super #bouton a {
   background-color: green;
   border-radius: 50px;
   margin: 1%;
-  padding: 10px;
+  padding: 15px 20px;
 }
 header .text_super #bouton a:hover {
   background-color: red;
@@ -17276,7 +17283,7 @@ header .text_super #bouton a:hover {
 header .text_super #bouton a:nth-child(1) {
   background-color: whitesmoke;
   color: black;
-  padding: 10px;
+  padding: 15px 20px;
 }
 header .text_super #bouton a:nth-child(1):hover {
   background-color: red;
@@ -17308,6 +17315,15 @@ header .carousel-indicators button {
   }
 }
 @media screen and (max-width: 620px) {
+  header .uppercase {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  header .lowercase {
+    text-transform: lowercase;
+    font-size: 40px;
+  }
+
   .navbar {
     display: none;
   }
@@ -17346,6 +17362,9 @@ header .carousel-indicators button {
   text-decoration: none;
   color: black;
 }
+.bordure a i:hover {
+  color: red !important;
+}
 
 h2, .h2 {
   font-family: "courgette";
@@ -17353,6 +17372,8 @@ h2, .h2 {
 
 .color_red {
   color: red;
+  font-size: 35px;
+  text-transform: uppercase;
 }
 
 .workImg img {
@@ -17384,11 +17405,10 @@ h2, .h2 {
 
 @media screen and (max-width: 620px) {
   .carte_menu .bordure_burger {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    margin-left: 50%;
   }
 }
 .profil_chef {
@@ -17427,6 +17447,21 @@ h2, .h2 {
   border-radius: 50%;
   transition: 1s;
 }
+.profil_chef .bg_chef2:hover {
+  background-color: blue;
+  border-radius: 50%;
+  transition: 1s;
+}
+.profil_chef .bg_chef3:hover {
+  background-color: yellow;
+  border-radius: 50%;
+  transition: 1s;
+}
+.profil_chef .bg_chef4:hover {
+  background-color: green;
+  border-radius: 50%;
+  transition: 1s;
+}
 .profil_chef h4, .profil_chef .h4 {
   font-size: 15px;
 }
@@ -17443,6 +17478,7 @@ h2, .h2 {
   .profil_photo {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
   }
 }
@@ -17473,15 +17509,18 @@ h2, .h2 {
   width: auto;
   padding: 0;
 }
-.our_blog .card, .our_blog .card2 {
+.our_blog .card,
+.our_blog .card2 {
   height: 350px;
 }
-.our_blog .card div, .our_blog .card2 div {
+.our_blog .card div,
+.our_blog .card2 div {
   position: relative;
   height: 75%;
   width: 100%;
 }
-.our_blog .card div .img, .our_blog .card2 div .img {
+.our_blog .card div .img,
+.our_blog .card2 div .img {
   width: 100% !important;
   height: 90%;
   position: absolute;
@@ -17489,7 +17528,8 @@ h2, .h2 {
   border: blue 4px solid;
   border-radius: 10px;
 }
-.our_blog .card div p, .our_blog .card2 div p {
+.our_blog .card div p,
+.our_blog .card2 div p {
   position: absolute;
   bottom: 0;
   background-color: red;
@@ -17501,16 +17541,19 @@ h2, .h2 {
   font-size: small !important;
   margin: 0;
 }
-.our_blog .card div p span, .our_blog .card2 div p span {
+.our_blog .card div p span,
+.our_blog .card2 div p span {
   font-size: smaller;
   width: 90%;
 }
-.our_blog .card p, .our_blog .card2 p {
+.our_blog .card p,
+.our_blog .card2 p {
   text-align: left;
   width: 90%;
   font-weight: bold;
 }
-.our_blog .card span, .our_blog .card2 span {
+.our_blog .card span,
+.our_blog .card2 span {
   font-size: smaller;
   width: 90%;
 }
@@ -17630,6 +17673,7 @@ h2, .h2 {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 5%;
   }
   .testimonials .second #third_div div {
     margin-top: 10px;
@@ -17668,6 +17712,9 @@ h2, .h2 {
     width: 100%;
     font-size: x-small;
   }
+}
+.our_contact {
+  background-image: url(../../../public/img/main_bg.jpg);
 }
 .our_contact h1, .our_contact .h1 {
   font-family: "courgette";

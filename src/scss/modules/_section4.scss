@@ -1,75 +1,99 @@
-.testimonials{
+.testimonials {
     background-image: url(../../../public/img/testimonials_background.jpg);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 40px;
-    #first_div{
+
+    #first_div {
         display: flex;
         flex-direction: column;
-       align-items: center;
-        h2{
+        align-items: center;
+
+        h2 {
             font-size: 35px;
             font-family: "courgette";
             color: white;
-            span{
+
+            span {
                 color: red;
                 font-size: 50px;
             }
         }
-    }.second{
+    }
+
+    .second {
         justify-content: space-between;
         padding-top: 40px;
         padding-bottom: 40px;
-        #second_div{
+
+        #second_div {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            img{
+
+            img {
                 border-radius: 50%;
                 width: 170px;
                 margin-right: 10px;
                 border: 4px solid white;
-            }div{
+            }
+
+            div {
                 border: 1px solid white;
                 border-radius: 10px;
                 width: 350px;
-                padding:10px;
+                padding: 10px;
                 display: flex;
                 flex-direction: column;
-                h5{
+
+                h5 {
                     color: white;
                     text-align: left;
-                }p{
+                }
+
+                p {
                     color: red;
                     text-align: left;
-                }span{
+                }
+
+                span {
                     color: white;
                     text-align: left;
                 }
             }
         }
 
-    }#third_div{
+    }
+
+    #third_div {
         display: flex;
-        div{
+
+        div {
             border: 1px solid white;
             border-radius: 10px;
             width: 350px;
             padding: 10px;
             display: flex;
             flex-direction: column;
-            h5{
-                color: white;
-                text-align: left;
-            }p{
-                color: red;
-                text-align: left;
-            }span{
+
+            h5 {
                 color: white;
                 text-align: left;
             }
-        }img{
+
+            p {
+                color: red;
+                text-align: left;
+            }
+
+            span {
+                color: white;
+                text-align: left;
+            }
+        }
+
+        img {
             border-radius: 50%;
             border: 4px solid white;
             width: 170px;
@@ -77,64 +101,77 @@
         }
     }
 }
+
 // tablette
-@media screen and ( min-width : 620px ) and (max-width : 1024px) {
-    .testimonials{
-        .second{
+@media screen and (min-width : 620px) and (max-width : 1024px) {
+    .testimonials {
+        .second {
             display: flex;
             flex-direction: column;
-            #second_div{
+
+            #second_div {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                div{
+
+                div {
                     margin-top: 10px;
                 }
-    
+
             }
-            #third_div{
+
+            #third_div {
                 display: flex;
                 flex-direction: column-reverse;
                 align-items: center;
-                div{
+                padding-top: 5%;
+
+                div {
                     margin-top: 10px;
-                    }
+                }
+            }
         }
-      }
     }
 }
+
 // tel
-@media screen and ( max-width : 620px ) {
-    .testimonials{
-        #first_div{
-            h2{
+@media screen and (max-width : 620px) {
+    .testimonials {
+        #first_div {
+            h2 {
                 font-size: 20px;
-                span{
-                font-size: 35px;
-                    }
+
+                span {
+                    font-size: 35px;
+                }
             }
-        }.second{
+        }
+
+        .second {
             display: flex;
             flex-direction: column;
-            #second_div{
+
+            #second_div {
                 display: flex;
                 flex-direction: column;
-               align-items: center;
-            padding-top: 5%;
+                align-items: center;
+                padding-top: 5%;
 
-                div{
-                margin-top: 10px;
-                width: 100%;
-                font-size: x-small;
-                    }
-                        }
+                div {
+                    margin-top: 10px;
+                    width: 100%;
+                    font-size: x-small;
+                }
+            }
         }
-        #third_div{
+
+        #third_div {
             display: flex;
             align-items: center;
             flex-direction: column-reverse;
             padding-top: 5%;
-            div{
+
+            div {
                 margin-top: 10px;
                 width: 100%;
                 font-size: x-small;

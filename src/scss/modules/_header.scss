@@ -4,6 +4,13 @@ header {
     justify-content: center;
     border-bottom: 5px dashed black;
 
+    .uppercase{
+        text-transform: uppercase;
+        font-size: 70px;
+    }.lowercase{
+        text-transform: lowercase;
+        font-size: 70px;
+    }
     ul {
         border-top: 1px solid white;
         border-bottom: 1px solid white;
@@ -26,7 +33,7 @@ header {
 
             .color_red {
                 color: red;
-                font-size: 110%;
+                // font-size: 110%;
             }
         }
 
@@ -43,27 +50,31 @@ header {
         //         background-color: red;
         //     }
         // }
-        #bouton{
+        #bouton {
             margin: 2% 2%;
             padding-top: 5%;
-            a{ text-decoration: none;
+
+            a {
+                text-decoration: none;
                 color: white;
                 text-transform: uppercase;
                 font-family: menu;
                 background-color: green;
                 border-radius: 50px;
                 margin: 1%;
-                padding: 10px;
-                &:hover{
+                padding: 15px 20px;
+
+                &:hover {
                     background-color: red;
                 }
 
 
-                &:nth-child(1){
+                &:nth-child(1) {
                     background-color: whitesmoke;
                     color: black;
-                    padding: 10px;
-                    &:hover{
+                    padding: 15px 20px;
+
+                    &:hover {
                         background-color: red;
                     }
                 }
@@ -104,32 +115,44 @@ header {
 
 
 // tablette
-@media screen and ( min-width : 620px ) and (max-width : 1024px) {
-   .navbar{
-    //    display: none;
-            display: flex;
-            flex-direction: column;
-            .logo_fourchette{
-               
-              margin-left: 40% !important;
-              padding-top: 2%;
-              padding-bottom: 2%;
-            }
-   }
-}
-// tel
-@media screen and ( max-width : 620px ) {
-    
-   .navbar{
-       display: none;
-   }
-   #bouton{
-      display: none;
-   }
-    .text_super{
-        h1{
-            
-            
+@media screen and (min-width : 620px) and (max-width : 1024px) {
+   
+    .navbar {
+        //    display: none;
+        display: flex;
+        flex-direction: column;
+
+        .logo_fourchette {
+
+            margin-left: 40% !important;
+            padding-top: 2%;
+            padding-bottom: 2%;
         }
+    }
+}
+
+// tel
+@media screen and (max-width : 620px) {
+
+    header{
+        .uppercase{
+            text-transform: uppercase;
+            font-size: 30px;
+        }.lowercase{
+            text-transform: lowercase;
+            font-size: 40px;
+        }
+
+    }
+    .navbar {
+        display: none;
+    }
+
+    #bouton {
+        display: none;
+    }
+
+    .text_super {
+        h1 {}
     }
 }

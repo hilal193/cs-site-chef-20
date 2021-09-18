@@ -1,49 +1,77 @@
-.profil_chef{
+.profil_chef {
     background-image: url(../../../public/img/team_background.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    div{
+
+    div {
         padding: 20px;
     }
-    img{
+
+    img {
         width: 90%;
-       
+
     }
-    .border_bottom{
+
+    .border_bottom {
         border-bottom: 1px solid grey;
 
     }
-    h3{
+
+    h3 {
         font-family: "courgette";
         text-transform: capitalize;
-        .color_red{
+
+        .color_red {
             color: red;
             font-size: 40px;
         }
     }
-    .color_white{
-        color:white !important;
+
+    .color_white {
+        color: white !important;
     }
-    .profil_photo{
+
+    .profil_photo {
         border-bottom: 1px solid black;
     }
-    .bg_chef{
-        &:hover{
+
+    .bg_chef {
+        &:hover {
             background-color: red;
             border-radius: 50%;
             transition: 1s;
         }
+    }.bg_chef2 {
+        &:hover {
+            background-color: blue;
+            border-radius: 50%;
+            transition: 1s;
+        }
+    }.bg_chef3 {
+        &:hover {
+            background-color: yellow;
+            border-radius: 50%;
+            transition: 1s;
+        }
+    }.bg_chef4 {
+        &:hover {
+            background-color: green;
+            border-radius: 50%;
+            transition: 1s;
+        }
     }
-    h4{
+
+    h4 {
         font-size: 15px;
     }
 }
+
 // responsive
 @media screen and (max-width:620px) {
-    .profil_photo{
+    .profil_photo {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -51,10 +79,11 @@
     }
 }
 
-@media screen and ( min-width : 620px ) and (max-width : 1024px){
-    .profil_photo{
+@media screen and (min-width : 620px) and (max-width : 1024px) {
+    .profil_photo {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
 }
