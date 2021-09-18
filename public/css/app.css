@@ -17431,6 +17431,158 @@ h2, .h2 {
   border-radius: 10px;
 }
 
+.our_blog h2, .our_blog .h2 {
+  font-size: 20px;
+}
+.our_blog h2 span, .our_blog .h2 span {
+  font-size: 35px;
+}
+.our_blog .arrange_card {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 0;
+}
+.our_blog .card, .our_blog .card2 {
+  height: 350px;
+}
+.our_blog .card div, .our_blog .card2 div {
+  position: relative;
+  height: 75%;
+  width: 100%;
+}
+.our_blog .card div .img, .our_blog .card2 div .img {
+  width: 100% !important;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  border: blue 4px solid;
+  border-radius: 10px;
+}
+.our_blog .card div p, .our_blog .card2 div p {
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 90% !important;
+  height: 25%;
+  font-size: small !important;
+  margin: 0;
+}
+.our_blog .card div p span, .our_blog .card2 div p span {
+  font-size: smaller;
+  width: 90%;
+}
+.our_blog .card p, .our_blog .card2 p {
+  text-align: left;
+  width: 90%;
+  font-weight: bold;
+}
+.our_blog .card span, .our_blog .card2 span {
+  font-size: smaller;
+  width: 90%;
+}
+.our_blog #bouton_know {
+  border: none;
+  border-radius: 35px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.our_blog #bouton_know:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.testimonials {
+  background-image: url(../../../public/img/testimonials_background.jpg);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px;
+}
+.testimonials #first_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials #first_div h2, .testimonials #first_div .h2 {
+  font-size: 35px;
+  font-family: "courgette";
+  color: white;
+}
+.testimonials #first_div h2 span, .testimonials #first_div .h2 span {
+  color: red;
+  font-size: 50px;
+}
+.testimonials .second {
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.testimonials .second #second_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.testimonials .second #second_div img {
+  border-radius: 50%;
+  width: 170px;
+  margin-right: 10px;
+  border: 4px solid white;
+}
+.testimonials .second #second_div div {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials .second #second_div div h5, .testimonials .second #second_div div .h5 {
+  color: white;
+  text-align: left;
+}
+.testimonials .second #second_div div p {
+  color: red;
+  text-align: left;
+}
+.testimonials .second #second_div div span {
+  color: white;
+  text-align: left;
+}
+.testimonials #third_div {
+  display: flex;
+}
+.testimonials #third_div div {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials #third_div div h5, .testimonials #third_div div .h5 {
+  color: white;
+  text-align: left;
+}
+.testimonials #third_div div p {
+  color: red;
+  text-align: left;
+}
+.testimonials #third_div div span {
+  color: white;
+  text-align: left;
+}
+.testimonials #third_div img {
+  border-radius: 50%;
+  border: 4px solid white;
+  width: 170px;
+  margin-left: 10px;
+}
+
 body h1, body .h1 {
   font-family: courgette;
 }
