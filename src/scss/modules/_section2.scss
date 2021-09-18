@@ -33,7 +33,8 @@
     .bg_chef{
         &:hover{
             background-color: red;
-            transition: 2s;
+            border-radius: 50%;
+            transition: 1s;
         }
     }
     h4{

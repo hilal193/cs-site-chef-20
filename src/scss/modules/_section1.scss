@@ -67,3 +67,20 @@ h2{
     padding: 5px;
     margin: 0 10px;
 }
+
+// responsive
+
+@media screen and ( max-width : 620px ){
+    .carte_menu{
+        
+     
+        
+      .bordure_burger{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+      }
+    }
+}

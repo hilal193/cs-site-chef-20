@@ -1,0 +1,28 @@
+.our_contact{
+    h1{
+        font-family: "courgette";
+        #red{
+            color: red;
+            font-size: 120%;
+        }
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+    }.rectangle_rouge{
+        border-radius: 10px;
+        background-color: red;
+        max-width: max-content;
+        padding: 20px;
+        div{
+            p{
+                color: white;
+                padding-bottom: 10px;
+                border-bottom: 1px solid white;
+            }i{
+                color: white;
+                font-size: 40px;
+            }
+        }
+    }
+}

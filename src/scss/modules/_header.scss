@@ -119,11 +119,17 @@ header {
 }
 // tel
 @media screen and ( max-width : 620px ) {
+    
    .navbar{
        display: none;
    }
    #bouton{
-      
-       font-size: 10px;
+      display: none;
    }
+    .text_super{
+        h1{
+            
+            
+        }
+    }
 }

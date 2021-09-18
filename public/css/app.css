@@ -17313,7 +17313,7 @@ header .carousel-indicators button {
   }
 
   #bouton {
-    font-size: 10px;
+    display: none;
   }
 }
 .carte_menu {
@@ -17382,6 +17382,15 @@ h2, .h2 {
   margin: 0 10px;
 }
 
+@media screen and (max-width: 620px) {
+  .carte_menu .bordure_burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
 .profil_chef {
   background-image: url(../../../public/img/team_background.jpg);
   display: flex;
@@ -17415,7 +17424,8 @@ h2, .h2 {
 }
 .profil_chef .bg_chef:hover {
   background-color: red;
-  transition: 2s;
+  border-radius: 50%;
+  transition: 1s;
 }
 .profil_chef h4, .profil_chef .h4 {
   font-size: 15px;
@@ -17659,6 +17669,33 @@ h2, .h2 {
     font-size: x-small;
   }
 }
+.our_contact h1, .our_contact .h1 {
+  font-family: "courgette";
+}
+.our_contact h1 #red, .our_contact .h1 #red {
+  color: red;
+  font-size: 120%;
+}
+.our_contact .info {
+  display: flex;
+  justify-content: center;
+}
+.our_contact .rectangle_rouge {
+  border-radius: 10px;
+  background-color: red;
+  max-width: max-content;
+  padding: 20px;
+}
+.our_contact .rectangle_rouge div p {
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.our_contact .rectangle_rouge div i {
+  color: white;
+  font-size: 40px;
+}
+
 body h1, body .h1 {
   font-family: courgette;
 }
