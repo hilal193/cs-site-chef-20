@@ -1,5 +1,39 @@
-body{
-    h1{
-        font-family: courgette;
+// body{
+//     h1{
+//         font-family: courgette;
+//     }
+// }
+
+footer{
+    background-image: url(../../../public/img/footer_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    #footer_bg{
+        background-image: url("../../../public/img/footer_bottom_decoration_img.png");
+        height: 15px;
     }
+    #petit{
+        
+            font-size: smaller;
+            opacity: 0.7;
+    }
+    #images{
+        .row{
+            margin-bottom: 10px;
+        }
+    }
+    .logo_footer{
+        a{
+            color: white;
+            i{
+                padding: 5px 0;
+                font-size: 20px;
+                margin: 0 10px;
+            }
+
+        }
+    }
+
+
 }
