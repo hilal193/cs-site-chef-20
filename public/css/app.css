@@ -17484,6 +17484,8 @@ h2, .h2 {
 }
 .contact {
   background-image: url(../../../public/img/book_table_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px;
   border-radius: 10px;
   margin-top: 40px;
@@ -17491,84 +17493,99 @@ h2, .h2 {
 }
 .contact .numero {
   padding: 10px;
+  padding-bottom: 20px;
   font-size: 20px;
 }
 .contact .input_radius {
-  border-radius: 10px;
+  border-radius: 15px;
+  border: none;
 }
-
-.our_blog h2, .our_blog .h2 {
-  font-size: 20px;
-}
-.our_blog h2 span, .our_blog .h2 span {
-  font-size: 35px;
-}
-.our_blog .arrange_card {
-  display: flex;
-  align-items: center;
-  width: auto;
-  padding: 0;
-}
-.our_blog .card,
-.our_blog .card2 {
-  height: 350px;
-}
-.our_blog .card div,
-.our_blog .card2 div {
-  position: relative;
-  height: 75%;
-  width: 100%;
-}
-.our_blog .card div .img,
-.our_blog .card2 div .img {
-  width: 100% !important;
-  height: 90%;
-  position: absolute;
-  top: 0;
-  border: blue 4px solid;
-  border-radius: 10px;
-}
-.our_blog .card div p,
-.our_blog .card2 div p {
-  position: absolute;
-  bottom: 0;
-  background-color: red;
-  border-radius: 10px;
-  color: white;
-  padding: 10px;
-  width: 90% !important;
-  height: 25%;
-  font-size: small !important;
-  margin: 0;
-}
-.our_blog .card div p span,
-.our_blog .card2 div p span {
-  font-size: smaller;
-  width: 90%;
-}
-.our_blog .card p,
-.our_blog .card2 p {
-  text-align: left;
-  width: 90%;
+.contact input, .contact select {
+  padding: 10px 10px;
+  margin-bottom: 4px;
   font-weight: bold;
 }
-.our_blog .card span,
-.our_blog .card2 span {
-  font-size: smaller;
-  width: 90%;
+.contact input:focus, .contact select:focus {
+  outline: none;
 }
-.our_blog #bouton_know {
+
+#bouton_know {
+  margin-left: 45%;
   border: none;
   border-radius: 35px;
   padding: 10px;
+  margin-top: 20px;
   background-color: red;
   color: white;
 }
-.our_blog #bouton_know:hover {
+#bouton_know:hover {
   background-color: blanchedalmond;
   color: black;
+  font-weight: bold;
+  transition: 2s;
 }
 
+.our_blog_bas {
+  padding: 50px 5%;
+}
+.our_blog_bas .card {
+  position: relative;
+}
+.our_blog_bas .card img {
+  border-radius: 15px;
+  border: 5px solid gray;
+}
+.our_blog_bas .card .text_over {
+  background-color: #f32b88;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  width: 90%;
+  margin-left: 6%;
+  transform: translateY(-40px);
+}
+.our_blog_bas .card .text_over span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.our_blog_bas .card .text_over P {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .contact input, .contact select {
+    font-size: smaller;
+  }
+
+  #bouton_know {
+    margin-left: 35%;
+  }
+
+  .our_blog_bas {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .our_blog_bas img {
+    width: 100%;
+  }
+
+  .small_respo {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+  #bouton_know {
+    margin-left: 42%;
+  }
+
+  .demi {
+    width: 50%;
+  }
+}
 .testimonials {
   background-image: url(../../../public/img/testimonials_background.jpg);
   display: flex;

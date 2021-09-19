@@ -1,5 +1,8 @@
+
 .contact {
     background-image: url(../../../public/img/book_table_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 60px;
     border-radius: 10px;
     margin-top: 40px;
@@ -7,92 +10,171 @@
 
     .numero {
         padding: 10px;
+        padding-bottom: 20px;
         font-size: 20px;
     }
 
     .input_radius {
-        border-radius: 10px;
+        border-radius: 15px;
+        border: none;
+    }input,select{
+        padding: 10px 10px;
+        margin-bottom: 4px;
+        font-weight: bold;
+        &:focus{
+           outline: none;
+        }
     }
 }
 
 // BLOG
-.our_blog {
-    h2 {
-        font-size: 20px;
+// .our_blog {
+//     h2 {
+//         font-size: 20px;
 
-        span {
-            font-size: 35px;
-        }
+//         span {
+//             font-size: 35px;
+//         }
+//     }
+
+//     .arrange_card {
+//         display: flex;
+//         // flex-direction: column;
+//         align-items: center;
+//         width: auto;
+//         padding: 0;
+
+//     }
+
+//     // .card,
+//     // .card2 {
+//     //     height: 350px;
+
+//     //     div {
+//     //         position: relative;
+//     //         height: 75%;
+//     //         width: 100%;
+
+//     //         .img {
+//     //             width: 100% !important;
+//     //             height: 90%;
+//     //             position: absolute;
+//     //             top: 0;
+//     //             border: blue 4px solid;
+//     //             border-radius: 10px;
+//     //         }
+
+//     //         p {
+//     //             position: absolute;
+//     //             bottom: 0;
+//     //             background-color: red;
+//     //             border-radius: 10px;
+//     //             color: white;
+//     //             padding: 10px;
+//     //             width: 90% !important;
+//     //             height: 25%;
+//     //             font-size: small !important;
+//     //             margin: 0;
+
+//     //             span {
+//     //                 font-size: smaller;
+//     //                 width: 90%;
+//     //             }
+//     //         }
+//     //     }
+
+//     //     p {
+//     //         text-align: left;
+//     //         width: 90%;
+//     //         font-weight: bold;
+//     //     }
+
+//     //     span {
+//     //         font-size: smaller;
+//     //         width: 90%;
+//     //     }
+//     // }
+
+// }
+#bouton_know {
+    margin-left: 45%;
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+
+    &:hover {
+        background-color: blanchedalmond;
+        color: black;
+        font-weight: bold;
+        transition: 2s;
     }
+}
+.our_blog_bas{
+    // padding-top: 50px;
+    // padding-bottom: 50px;
+    padding: 50px 5%;
+   
+    .card{
+        position: relative;
+        img{
+            border-radius: 15px;
+            border: 5px solid gray;
+            
+        }.text_over{
+            background-color: rgb(243, 43, 136);
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            padding-bottom: 3px;
+            font-size: 20px;
+            width: 90%;
+            margin-left: 6%;
+            transform: translateY(-40px);
+            span{
+                font-size: 25px;
+                font-weight: bold;
+            }P{
+                font-size: 20px;
+            }
+        }
+   }
+}
 
-    .arrange_card {
+
+// TEL
+@media screen and (max-width:620px) {
+    .contact {
+      input,select{
+          font-size: smaller;
+      }
+    }
+    #bouton_know{
+        margin-left: 35%;
+    }
+    .our_blog_bas{
         display: flex;
-        // flex-direction: column;
-        align-items: center;
-        width: auto;
+        flex-direction: column;
+        margin: 0;
         padding: 0;
-
-    }
-
-    .card,
-    .card2 {
-        height: 350px;
-
-        div {
-            position: relative;
-            height: 75%;
+        img{
             width: 100%;
-
-            .img {
-                width: 100% !important;
-                height: 90%;
-                position: absolute;
-                top: 0;
-                border: blue 4px solid;
-                border-radius: 10px;
-            }
-
-            p {
-                position: absolute;
-                bottom: 0;
-                background-color: red;
-                border-radius: 10px;
-                color: white;
-                padding: 10px;
-                width: 90% !important;
-                height: 25%;
-                font-size: small !important;
-                margin: 0;
-
-                span {
-                    font-size: smaller;
-                    width: 90%;
-                }
-            }
         }
+        
+    }.small_respo{
+      
+        text-align: center;
+     }
+}
 
-        p {
-            text-align: left;
-            width: 90%;
-            font-weight: bold;
-        }
-
-        span {
-            font-size: smaller;
-            width: 90%;
-        }
+// TABLETTE
+@media screen and (min-width : 620px) and (max-width : 1024px){
+    #bouton_know{
+        margin-left: 42%;
     }
-
-    #bouton_know {
-        border: none;
-        border-radius: 35px;
-        padding: 10px;
-        background-color: red;
-        color: white;
-
-        &:hover {
-            background-color: blanchedalmond;
-            color: black;
-        }
+    .demi{
+        width: 50%;
     }
 }
