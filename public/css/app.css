@@ -17339,7 +17339,7 @@ header .carousel-indicators button {
 
 .c1 {
   position: relative;
-  border: 1px solid black;
+  border: 1px solid #d1d1d1;
 }
 .c1 .margin_GD {
   margin-left: 20%;
@@ -17507,6 +17507,12 @@ h2, .h2 {
 }
 .contact input:focus, .contact select:focus {
   outline: none;
+}
+.contact .btn:hover {
+  background-color: #ff9562 !important;
+  color: #46ffa3 !important;
+  font-weight: bold !important;
+  transition: 3s;
 }
 
 #bouton_know {
@@ -17746,7 +17752,7 @@ h2, .h2 {
 }
 .our_contact .rectangle_rouge {
   border-radius: 10px;
-  background-color: red;
+  background-color: #d9534f;
   max-width: max-content;
   padding: 20px;
 }

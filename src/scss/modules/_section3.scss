@@ -17,12 +17,20 @@
     .input_radius {
         border-radius: 15px;
         border: none;
+       
     }input,select{
         padding: 10px 10px;
         margin-bottom: 4px;
         font-weight: bold;
         &:focus{
            outline: none;
+        }
+    }.btn{
+        &:hover{
+            background-color: #ff9562 !important;
+            color: #46ffa3 !important;
+            font-weight: bold !important;
+            transition: 3s;
         }
     }
 }
