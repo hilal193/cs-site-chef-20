@@ -17768,5 +17768,23 @@ footer .logo_footer a i {
   font-size: 20px;
   margin: 0 10px;
 }
+footer .bouton_footer {
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 7px;
+}
+footer #rose_bas {
+  background-color: #df2755;
+  height: 60px;
+}
+footer h3, footer .h3 {
+  padding-bottom: 10px;
+  font-weight: lighter;
+  filter: glow(color=white, strength=3);
+}
 
 /*# sourceMappingURL=app.css.map */
