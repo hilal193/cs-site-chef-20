@@ -17514,12 +17514,14 @@ h2, .h2 {
   border-radius: 15px;
   border: none;
 }
-.contact input, .contact select {
+.contact input,
+.contact select {
   padding: 10px 10px;
   margin-bottom: 4px;
   font-weight: bold;
 }
-.contact input:focus, .contact select:focus {
+.contact input:focus,
+.contact select:focus {
   outline: none;
 }
 .contact .btn:hover {
@@ -17575,7 +17577,8 @@ h2, .h2 {
 }
 
 @media screen and (max-width: 620px) {
-  .contact input, .contact select {
+  .contact input,
+.contact select {
     font-size: smaller;
   }
 

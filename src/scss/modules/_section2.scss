@@ -45,19 +45,25 @@
             border-radius: 50%;
             transition: 1s;
         }
-    }.bg_chef2 {
+    }
+
+    .bg_chef2 {
         &:hover {
             background-color: blue;
             border-radius: 50%;
             transition: 1s;
         }
-    }.bg_chef3 {
+    }
+
+    .bg_chef3 {
         &:hover {
             background-color: yellow;
             border-radius: 50%;
             transition: 1s;
         }
-    }.bg_chef4 {
+    }
+
+    .bg_chef4 {
         &:hover {
             background-color: green;
             border-radius: 50%;
