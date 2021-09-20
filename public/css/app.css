@@ -17296,7 +17296,7 @@ header .carousel-indicators button {
 }
 
 #section_0 .img_deco_head {
-  background-image: url(../../../public/img/bottom_decoration_img.png);
+  background-image: url(../img/bottom_decoration_img.png);
   height: 15px;
   background-color: #4d4d4d;
   width: 100%;
@@ -17426,7 +17426,7 @@ h2, .h2 {
   }
 }
 .profil_chef {
-  background-image: url(../../../public/img/team_background.jpg);
+  background-image: url(../img/team_background.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17497,7 +17497,7 @@ h2, .h2 {
   }
 }
 .contact {
-  background-image: url(../../../public/img/book_table_bg.jpg);
+  background-image: url(../img/book_table_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px;
@@ -17607,7 +17607,7 @@ h2, .h2 {
   }
 }
 .testimonials {
-  background-image: url(../../../public/img/testimonials_background.jpg);
+  background-image: url(../img/testimonials_background.jpg);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -17751,7 +17751,7 @@ h2, .h2 {
   }
 }
 .our_contact {
-  background-image: url(../../../public/img/main_bg.jpg);
+  background-image: url(../img/main_bg.jpg);
 }
 .our_contact h1, .our_contact .h1 {
   font-family: "courgette";
@@ -17781,13 +17781,13 @@ h2, .h2 {
 }
 
 footer {
-  background-image: url(../../../public/img/footer_background.jpg);
+  background-image: url(../img/footer_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
 footer #footer_bg {
-  background-image: url("../../../public/img/footer_bottom_decoration_img.png");
+  background-image: url(../img/footer_bottom_decoration_img.png);
   height: 15px;
 }
 footer #petit {

@@ -5,12 +5,14 @@
 // }
 
 footer{
-    background-image: url(../../../public/img/footer_background.jpg);
+    // background-image: url(../../../public/img/footer_background.jpg);
+    background-image: url(../img/footer_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     #footer_bg{
-        background-image: url("../../../public/img/footer_bottom_decoration_img.png");
+        // background-image: url("../../../public/img/footer_bottom_decoration_img.png");
+        background-image: url(../img/footer_bottom_decoration_img.png);
         height: 15px;
     }
     #petit{
