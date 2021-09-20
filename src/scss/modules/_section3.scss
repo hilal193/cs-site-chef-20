@@ -35,83 +35,15 @@
     }
 }
 
-// BLOG
-// .our_blog {
-//     h2 {
-//         font-size: 20px;
 
-//         span {
-//             font-size: 35px;
-//         }
-//     }
-
-//     .arrange_card {
-//         display: flex;
-//         // flex-direction: column;
-//         align-items: center;
-//         width: auto;
-//         padding: 0;
-
-//     }
-
-//     // .card,
-//     // .card2 {
-//     //     height: 350px;
-
-//     //     div {
-//     //         position: relative;
-//     //         height: 75%;
-//     //         width: 100%;
-
-//     //         .img {
-//     //             width: 100% !important;
-//     //             height: 90%;
-//     //             position: absolute;
-//     //             top: 0;
-//     //             border: blue 4px solid;
-//     //             border-radius: 10px;
-//     //         }
-
-//     //         p {
-//     //             position: absolute;
-//     //             bottom: 0;
-//     //             background-color: red;
-//     //             border-radius: 10px;
-//     //             color: white;
-//     //             padding: 10px;
-//     //             width: 90% !important;
-//     //             height: 25%;
-//     //             font-size: small !important;
-//     //             margin: 0;
-
-//     //             span {
-//     //                 font-size: smaller;
-//     //                 width: 90%;
-//     //             }
-//     //         }
-//     //     }
-
-//     //     p {
-//     //         text-align: left;
-//     //         width: 90%;
-//     //         font-weight: bold;
-//     //     }
-
-//     //     span {
-//     //         font-size: smaller;
-//     //         width: 90%;
-//     //     }
-//     // }
-
-// }
 #bouton_know {
     margin-left: 45%;
     border: none;
     border-radius: 35px;
     padding: 10px;
     margin-top: 20px;
-    background-color: red;
-    color: white;
+    background-color: $rouge;
+    color: $blanc;
 
     &:hover {
         background-color: blanchedalmond;
@@ -132,7 +64,8 @@
             border: 5px solid gray;
             
         }.text_over{
-            background-color: rgb(243, 43, 136);
+            // background-color: rgb(243, 43, 136);
+            background-color: $rouge;
             color: white;
             border-radius: 10px;
             padding: 5px;

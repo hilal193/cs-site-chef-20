@@ -17234,7 +17234,6 @@ textarea.form-control-lg {
 header {
   display: flex;
   justify-content: center;
-  border-bottom: 5px dashed black;
 }
 header .uppercase {
   text-transform: uppercase;
@@ -17249,7 +17248,7 @@ header ul {
   border-bottom: 1px solid white;
 }
 header .nav-item a:hover {
-  background-color: red;
+  background-color: #C42D40;
   transition: 1.5s;
 }
 header .text_super {
@@ -17278,7 +17277,7 @@ header .text_super #bouton a {
   padding: 15px 20px;
 }
 header .text_super #bouton a:hover {
-  background-color: red;
+  background-color: #C42D40;
 }
 header .text_super #bouton a:nth-child(1) {
   background-color: whitesmoke;
@@ -17286,7 +17285,7 @@ header .text_super #bouton a:nth-child(1) {
   padding: 15px 20px;
 }
 header .text_super #bouton a:nth-child(1):hover {
-  background-color: red;
+  background-color: #C42D40;
 }
 header .carousel-inner img {
   filter: brightness(30%);
@@ -17294,6 +17293,13 @@ header .carousel-inner img {
 header .carousel-indicators button {
   height: 100px;
   width: 100px;
+}
+
+#section_0 .img_deco_head {
+  background-image: url(../../../public/img/bottom_decoration_img.png);
+  height: 15px;
+  background-color: #4d4d4d;
+  width: 100%;
 }
 
 #carouselExampleCaptions {
@@ -17313,6 +17319,10 @@ header .carousel-indicators button {
     padding-top: 2%;
     padding-bottom: 2%;
   }
+
+  .img_deco_head {
+    display: none;
+  }
 }
 @media screen and (max-width: 620px) {
   header .uppercase {
@@ -17329,6 +17339,10 @@ header .carousel-indicators button {
   }
 
   #bouton {
+    display: none;
+  }
+
+  .img_deco_head {
     display: none;
   }
 }
@@ -17356,14 +17370,14 @@ header .carousel-indicators button {
   border-right: 5px solid black;
 }
 .bordure .liste:hover {
-  border-right: 5px solid red;
+  border-right: 5px solid #C42D40;
 }
 .bordure a {
   text-decoration: none;
   color: black;
 }
 .bordure a i:hover {
-  color: red !important;
+  color: #C42D40 !important;
 }
 
 h2, .h2 {
@@ -17392,8 +17406,8 @@ h2, .h2 {
 }
 
 .prix {
-  background-color: grey;
-  color: red;
+  background-color: rgba(221, 212, 212, 0.925);
+  color: #C42D40;
   padding: 2px 7px;
 }
 
@@ -17521,7 +17535,7 @@ h2, .h2 {
   border-radius: 35px;
   padding: 10px;
   margin-top: 20px;
-  background-color: red;
+  background-color: #C42D40;
   color: white;
 }
 #bouton_know:hover {
@@ -17542,7 +17556,7 @@ h2, .h2 {
   border: 5px solid gray;
 }
 .our_blog_bas .card .text_over {
-  background-color: #f32b88;
+  background-color: #C42D40;
   color: white;
   border-radius: 10px;
   padding: 5px;
@@ -17752,7 +17766,7 @@ h2, .h2 {
 }
 .our_contact .rectangle_rouge {
   border-radius: 10px;
-  background-color: #d9534f;
+  background-color: #C42D40;
   max-width: max-content;
   padding: 20px;
 }
@@ -17792,7 +17806,7 @@ footer .logo_footer a i {
   margin: 0 10px;
 }
 footer .bouton_footer {
-  background-color: red;
+  background-color: #C42D40;
   border: 1px solid white;
   border-radius: 20px;
   font-size: 15px;

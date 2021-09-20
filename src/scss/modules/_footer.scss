@@ -25,7 +25,7 @@ footer{
     }
     .logo_footer{
         a{
-            color: white;
+            color: $blanc;
             i{
                 padding: 5px 0;
                 font-size: 20px;
@@ -35,16 +35,17 @@ footer{
         }
     }
     .bouton_footer{
-        background-color: red;
+        // background-color: red;
+        background-color: $rouge;
         border: 1px solid white;
         border-radius: 20px;
         font-size: 15px;
-        color: white;
+        color: $blanc;
         padding: 5px 10px;
         margin-right: 7px;
     }
     #rose_bas{
-        background-color: rgb(223, 39, 85);
+        background-color: $rose;
         height: 60px;
     }
     h3{

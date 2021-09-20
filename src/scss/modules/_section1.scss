@@ -26,7 +26,7 @@
         border-right: 5px solid black;
 
         &:hover {
-            border-right: 5px solid red;
+            border-right: 5px solid $rouge;
         }
 
     }
@@ -43,8 +43,11 @@
         // }
         i {
             &:hover {
-                color: red !important;
+                color: $rouge !important;
             }
+            // &:active{
+            //     color: $rouge !important;
+            // }
         }
     }
 }
@@ -80,8 +83,8 @@ h2 {
 }
 
 .prix {
-    background-color: grey;
-    color: red;
+    background-color: $prixCafe;
+    color: $rouge;
     padding: 2px 7px;
 }
 

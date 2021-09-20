@@ -17,19 +17,20 @@
 
     .rectangle_rouge {
         border-radius: 10px;
-        background-color: #d9534f;
+        // background-color: #d9534f;
+        background-color: $rouge;
         max-width: max-content;
         padding: 20px;
 
         div {
             p {
-                color: white;
+                color: $blanc;
                 padding-bottom: 10px;
                 border-bottom: 1px solid white;
             }
 
             i {
-                color: white;
+                color: $blanc;
                 font-size: 40px;
             }
         }
