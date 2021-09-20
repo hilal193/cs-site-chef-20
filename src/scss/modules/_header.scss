@@ -35,7 +35,7 @@ header {
             color: white;
 
             .color_red {
-                color: red;
+                color: $rouge;
             }
         }
 
@@ -149,11 +149,12 @@ header {
             margin-left: 40% !important;
             padding-top: 2%;
             padding-bottom: 2%;
+            
         }
     }
 
     .img_deco_head {
-        display: none;
+        // display: none;
     }
 
 }
@@ -185,7 +186,8 @@ header {
     // .text_super {
     //     h1 {}
     // }
-    .img_deco_head {
-        display: none;
-    }
+    
+    // .img_deco_head {
+        // display: none;
+    // }
 }

@@ -17260,7 +17260,7 @@ header .text_super h1, header .text_super .h1 {
   color: white;
 }
 header .text_super h1 .color_red, header .text_super .h1 .color_red {
-  color: red;
+  color: #C42D40;
 }
 header .text_super #bouton {
   margin: 2% 2%;
@@ -17324,10 +17324,6 @@ header .carousel-indicators button {
     padding-top: 2%;
     padding-bottom: 2%;
   }
-
-  .img_deco_head {
-    display: none;
-  }
 }
 @media screen and (max-width: 620px) {
   header .uppercase {
@@ -17344,10 +17340,6 @@ header .carousel-indicators button {
   }
 
   #bouton {
-    display: none;
-  }
-
-  .img_deco_head {
     display: none;
   }
 }
@@ -17398,8 +17390,8 @@ h2, .h2 {
 }
 
 .color_red {
-  color: red;
-  font-size: 35px;
+  color: #C42D40;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -17460,7 +17452,7 @@ h2, .h2 {
   text-transform: capitalize;
 }
 .profil_chef h3 .color_red, .profil_chef .h3 .color_red {
-  color: red;
+  color: #C42D40;
   font-size: 40px;
 }
 .profil_chef .color_white {
@@ -17640,7 +17632,7 @@ h2, .h2 {
   color: white;
 }
 .testimonials #first_div h2 span, .testimonials #first_div .h2 span {
-  color: red;
+  color: #C42D40;
   font-size: 50px;
 }
 .testimonials .second {
@@ -17773,7 +17765,7 @@ h2, .h2 {
   font-family: "courgette";
 }
 .our_contact h1 #red, .our_contact .h1 #red {
-  color: red;
+  color: #C42D40;
   font-size: 120%;
 }
 .our_contact .info {
@@ -17831,7 +17823,7 @@ footer .bouton_footer {
   margin-right: 7px;
 }
 footer #rose_bas {
-  background-color: #df2755;
+  background-color: #dc3545;
   height: 60px;
 }
 footer h3, footer .h3 {
