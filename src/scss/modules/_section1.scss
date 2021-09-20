@@ -22,8 +22,8 @@
 
     .liste {
         list-style-type: none;
-        border-bottom: 2px solid grey;
-        border-right: 5px solid black;
+        border-bottom: 2px solid lightgray;
+        border-right: 1px solid lightgray;
 
         &:hover {
             border-right: 5px solid $rouge;
@@ -33,7 +33,7 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: lightgray;
 
         // pour logo precis
         // .fa-mug-hot{
@@ -42,14 +42,20 @@
         //     }
         // }
         i {
+            color: lightgray !important;
             &:hover {
                 color: $rouge !important;
             }
+            
 
             // &:active{
             //     color: $rouge !important;
             // }
-        }
+        }h3{
+            font-family: courgette;
+            padding-top: 5px;
+            color: black !important;
+       }
     }
 }
 

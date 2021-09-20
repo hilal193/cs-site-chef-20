@@ -17288,7 +17288,7 @@ header .text_super #bouton a:nth-child(1):hover {
   background-color: #C42D40;
 }
 header .carousel-inner img {
-  filter: brightness(30%);
+  filter: brightness(25%);
 }
 header .carousel-indicators button {
   height: 100px;
@@ -17307,6 +17307,11 @@ header .carousel-indicators button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.rond_point {
+  height: 20px !important;
+  width: 20px !important;
 }
 
 @media screen and (min-width: 620px) and (max-width: 1024px) {
@@ -17366,18 +17371,26 @@ header .carousel-indicators button {
 
 .bordure .liste {
   list-style-type: none;
-  border-bottom: 2px solid grey;
-  border-right: 5px solid black;
+  border-bottom: 2px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 .bordure .liste:hover {
   border-right: 5px solid #C42D40;
 }
 .bordure a {
   text-decoration: none;
-  color: black;
+  color: lightgray;
+}
+.bordure a i {
+  color: lightgray !important;
 }
 .bordure a i:hover {
   color: #C42D40 !important;
+}
+.bordure a h3, .bordure a .h3 {
+  font-family: courgette;
+  padding-top: 5px;
+  color: black !important;
 }
 
 h2, .h2 {
@@ -17825,6 +17838,19 @@ footer h3, footer .h3 {
   padding-bottom: 10px;
   font-weight: lighter;
   filter: glow(color=white, strength=3);
+}
+footer .milieu_h3 {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  h3, .h3 {
+    text-align: center;
+  }
+
+  .milieu_h3 {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
