@@ -17342,6 +17342,10 @@ header .carousel-indicators button {
     padding-top: 2%;
     padding-bottom: 2%;
   }
+
+  .nav {
+    background-color: black;
+  }
 }
 @media screen and (max-width: 620px) {
   header .uppercase {
@@ -17353,12 +17357,19 @@ header .carousel-indicators button {
     font-size: 40px;
   }
 
-  .navbar {
+  #bouton {
     display: none;
   }
 
-  #bouton {
-    display: none;
+  .nav {
+    background-color: black;
+    font-size: 10px;
+  }
+
+  .navbar .logo_fourchette {
+    margin-left: 40% !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 }
 .carte_menu {

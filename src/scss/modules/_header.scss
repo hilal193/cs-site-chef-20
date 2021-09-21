@@ -178,8 +178,11 @@ header {
         }
     }
 
-    .img_deco_head {
+    // .img_deco_head {
         // display: none;
+    // }
+    .nav{
+        background-color: black;
     }
 
 }
@@ -200,9 +203,9 @@ header {
 
     }
 
-    .navbar {
-        display: none;
-    }
+    // .navbar {
+    //     display: none;
+    // }
 
     #bouton {
         display: none;
@@ -215,4 +218,15 @@ header {
     // .img_deco_head {
     // display: none;
     // }
+    .nav{
+        background-color: black;
+        font-size: 10px;
+    }
+    .navbar {
+        .logo_fourchette {
+            margin-left: 40% !important;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+    }
 }
